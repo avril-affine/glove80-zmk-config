@@ -1,0 +1,7 @@
+config SEL_WORD_MOD
+    string
+    default LGUI
+
+config SEL_WORD_DELAY
+    int
+    default 1
