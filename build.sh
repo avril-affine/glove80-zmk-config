@@ -33,7 +33,7 @@ fi
 SCRIPT_DIR=$(dirname $(readlink -f $0))
 APP_DIR="${SCRIPT_DIR}/zmk/app"
 CONFIG_DIR="${SCRIPT_DIR}/config"
-OUT="${SCRIPT_DIR}/build/$(date -Iseconds).uf2"
+OUT="${SCRIPT_DIR}/_build/$(date -Iseconds).uf2"
 
 pushd $APP_DIR
 echo $PWD
