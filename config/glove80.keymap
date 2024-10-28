@@ -139,12 +139,12 @@
 
     default_layer {
       bindings = <
-        &kp F16     &kp F17   &kp F18   &none   &none                                                                                                      &kp C_PREV  &kp C_NEXT  &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP
+        &kp F14     &kp F15   &kp F16   &kp F17 &kp F18                                                                                                    &kp C_PREV  &kp C_NEXT  &kp C_PP  &kp C_VOL_DN  &kp C_VOL_UP
         &kp ESC     &kp N1    &kp N2    &kp N3  &kp N4     &kp N5                                                                                  &kp N6  &kp N7      &kp N8      &kp N9    &kp N0        &kp MINUS
         &kp TAB     &kp Q     &kp W     &kp E   &kp R      &kp T                                                                                   &kp Y   &kp U       &kp I       &kp O     &kp P         &kp EQUAL
         &mo LOWER   &kp A     &kp S     &kp D   &kp F      &kp G                                                                                   &kp H   &kp J       &kp K       &kp L     &kp SEMI      &kp SQT
-        &kp LSHIFT  &kp Z     &kp X     &kp C   &kp V      &kp B    &kp LCTRL  &kp F19   &kp LS(GRAVE)        &none     &kp LS(TAB)  &kp RSHIFT    &kp N   &kp M       &kp COMMA   &kp DOT   &kp FSLH      &kp BSLH
-        &kp LALT    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT           &kp BSPC   &kp LGUI  &kp GRAVE            &kp RALT  &kp SPACE    &kp RET               &kp LPAR    &kp RPAR    &kp LBKT  &kp RBKT      &kp RCTRL
+        &kp LSHIFT  &kp Z     &kp X     &kp C   &kp V      &kp B    &kp LCTRL  &kp F19   &kp LS(GRAVE)        &kp RCTRL &kp LS(TAB)  &kp RSHIFT    &kp N   &kp M       &kp COMMA   &kp DOT   &kp FSLH      &kp BSLH
+        &kp LALT    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT           &kp BSPC   &kp LGUI  &kp F13              &kp RALT  &kp SPACE    &kp RET               &kp LPAR    &kp RPAR    &kp LBKT  &kp RBKT      &kp GRAVE
       >;
     };
 
